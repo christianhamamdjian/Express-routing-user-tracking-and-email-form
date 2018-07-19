@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact us</title>
+</head>
+
+<body>
+
+    <h1>Contact us</h1>
+    <a href='/'>Home</a>
+    <a href='/about'>About</a>
+    <a href='/contact'>Contact</a>
+    <br>
+    <br>
+    <form action="/thankyou" method="POST">
+        <fieldset>
+            <label for="firstname">Name &#42;</label>
+            <br>
+            <input id="firstname" name="firstName" type="text" placeholder="First name" required="required">
+            <br>
+            <br>
+            <label for="lastname">Name &#42;</label>
+            <br>
+            <input id="lastname" name="lastName" type="text" placeholder="Last name" required="required">
+            <br>
+            <br>
+            <label for="email">Email &#42;</label>
+            <br>
+            <input id="email" name="email" type="text" placeholder="Your email" required="required">
+            <br>
+            <br>
+            <label for="message">Message &#42;</label>
+            <br>
+            <textarea id="message" name="message" placeholder="Enter your message here" rows="3" required="required"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+</body>
+
+</html>
